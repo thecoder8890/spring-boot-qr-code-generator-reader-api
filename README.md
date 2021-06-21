@@ -1,6 +1,6 @@
 # QR-code Generator and Reader
 
-## Application used Java 15 | Onurdesk
+## Application used Java 15 | [Onurdesk](https://onurdesk.com/)
 
 ###### Spring boot application exposing REST API endpoint to genrate QR-code representing custom message and another endpoint to read the decoded message, built using Java Spring boot and google's zxing library.
 
