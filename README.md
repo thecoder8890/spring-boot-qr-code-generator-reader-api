@@ -1,5 +1,7 @@
 # QR-code Generator and Reader
 
+[![Java CI with Maven](https://github.com/thecoder8890/spring-boot-qr-code-generator-reader-api/actions/workflows/maven-ci.yml/badge.svg)](https://github.com/thecoder8890/spring-boot-qr-code-generator-reader-api/actions/workflows/maven-ci.yml)
+
 ## Application used [Java 17](https://onurdesk.com/what-are-preview-features-in-java-17/) and Spring Boot 3.5.0 | [Onurdesk](https://onurdesk.com/)
 
 ###### Spring boot application exposing REST API endpoint to genrate QR-code representing custom message and another endpoint to read the decoded message, built using Java, [Spring Boot 3.5.0](https://spring.io/projects/spring-boot/) and [google's zxing library](https://opensource.google/projects/zxing).
