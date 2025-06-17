@@ -1,0 +1,8 @@
+/app/src/main/java/com/onurdesk/iris/SpringBootQrCodeGeneratorReaderApplication.java
+/app/src/main/java/com/onurdesk/iris/configuration/OpenApiConfiguration.java
+/app/src/main/java/com/onurdesk/iris/configuration/properties/OpenApiConfigurationProperties.java
+/app/src/main/java/com/onurdesk/iris/controller/QrCodeController.java
+/app/src/main/java/com/onurdesk/iris/dto/QrCodeGenerationRequestDto.java
+/app/src/main/java/com/onurdesk/iris/exception/handler/GenericExceptionHandler.java
+/app/src/main/java/com/onurdesk/iris/exception/handler/ValidationFailureExceptionHandler.java
+/app/src/main/java/com/onurdesk/iris/service/QrCodeService.java

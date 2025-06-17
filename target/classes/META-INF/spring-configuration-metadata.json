@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "com.onurdesk.iris.swagger",
+      "type": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties",
+      "type": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties",
+      "sourceMethod": "getProperties()"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties.contact",
+      "type": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties$Contact",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties",
+      "sourceMethod": "getContact()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.onurdesk.iris.swagger.properties.api-version",
+      "type": "java.lang.String",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties.contact.email",
+      "type": "java.lang.String",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties$Contact"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties.contact.name",
+      "type": "java.lang.String",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties$Contact"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties.contact.url",
+      "type": "java.lang.String",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties$Contact"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties.description",
+      "type": "java.lang.String",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties"
+    },
+    {
+      "name": "com.onurdesk.iris.swagger.properties.title",
+      "type": "java.lang.String",
+      "sourceType": "com.onurdesk.iris.configuration.properties.OpenApiConfigurationProperties$Properties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
