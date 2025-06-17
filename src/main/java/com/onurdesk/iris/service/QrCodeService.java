@@ -5,7 +5,7 @@ import java.io.BufferedOutputStream;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
@@ -42,6 +42,7 @@ public class QrCodeService {
 			final HttpServletResponse httpServletResponse) throws IOException, WriterException {
 		httpServletResponse.setHeader(HttpHeaders.CONTENT_DISPOSITION,
 				"attachment;filename=" + qrCodeGenerationRequestDto.getTitle().trim().replace(" ", "_") + ".png");
+		httpServletResponse.setContentType("image/png"); // Explicitly set content type
 
 		final var outputStream = new BufferedOutputStream(httpServletResponse.getOutputStream());
 		QRCodeWriter writer = new QRCodeWriter();
