@@ -8,5 +8,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/target/
-/.settings/
+# Note: repo-root paths such as /target/ and /.settings/ must be added to
+# the repository-root .gitignore; patterns in this file only apply under .idea/.
