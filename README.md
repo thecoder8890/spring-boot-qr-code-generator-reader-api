@@ -2,9 +2,9 @@
 
 [![Java CI with Maven](https://github.com/thecoder8890/spring-boot-qr-code-generator-reader-api/actions/workflows/maven-ci.yml/badge.svg)](https://github.com/thecoder8890/spring-boot-qr-code-generator-reader-api/actions/workflows/maven-ci.yml)
 
-## Application used [Java 17](https://onurdesk.com/what-are-preview-features-in-java-17/) and Spring Boot 3.5.0 | [Onurdesk](https://onurdesk.com/)
+## Application used [Java 17](https://onurdesk.com/what-are-preview-features-in-java-17/) and Spring Boot 3.5.13 | [Onurdesk](https://onurdesk.com/)
 
-###### Spring boot application exposing REST API endpoint to genrate QR-code representing custom message and another endpoint to read the decoded message, built using Java, [Spring Boot 3.5.0](https://spring.io/projects/spring-boot/) and [google's zxing library](https://opensource.google/projects/zxing).
+###### Spring boot application exposing REST API endpoint to genrate QR-code representing custom message and another endpoint to read the decoded message, built using Java, [Spring Boot 3.5.13](https://spring.io/projects/spring-boot/) and [google's zxing library](https://opensource.google/projects/zxing).
 
 <center>
 	<a target='_blank' href='https://spring-boot-qr-code-generator.herokuapp.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config'>Running Application</a>
